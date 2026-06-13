@@ -6,3 +6,4 @@ lightgbm
 jupyter
 matplotlib
 seaborn
+kagglehub

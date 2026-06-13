@@ -98,9 +98,13 @@ Below are the predicted outcomes and class probabilities for all 70 group stage 
 ---
 
 ## How to Run the Predictions
+The project has been upgraded to fetch raw match records dynamically using the `kagglehub` library. This ensures predictions and Elo simulations always use the most up-to-date international matches.
+
 1. Initialize the virtual environment and install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 2. Open and run the predictions notebook:
    - [2026 World Cup Predictions Notebook](notebooks/world_cup_2026_predictions.ipynb)
+3. Open and run the model training notebook:
+   - [Model Training Notebook](notebooks/models_training.ipynb)
